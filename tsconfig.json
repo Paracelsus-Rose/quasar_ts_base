@@ -1,0 +1,18 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "paths": {
+      "models/*": [
+        "src/models/*"
+      ],
+      "types/*": [
+        "src/types/*"
+      ]
+    },
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "strictPropertyInitialization": false
+  }
+}

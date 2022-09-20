@@ -1,0 +1,14 @@
+{
+  "@vueauth/auth": {
+    "authProvider": {
+      "identifier": "supabase",
+      "packageName": "@vueauth/supabase"
+    }
+  },
+  "@quasar/testing-e2e-cypress": {
+    "options": [
+      "scripts",
+      "typescript"
+    ]
+  }
+}
